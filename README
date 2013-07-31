@@ -1,0 +1,28 @@
+Copyright 2013 - The CyanogenMod Project
+
+Common device configuration for Samsung Victory Galaxy (Sprint Version)
+
+WHAT CURRENTLY WORKS?
+
+HARDWARE WORKING
+- Loads through TWRP & CWM
+Audio 
+Battery % shows correctly
+Headphones
+Kernel - SPH-L300_SPR_JB_MC1_3.0.31 which is 100% stock
+Lights - Hard keys working
+NFC
+Touch Screen
+SD Card External - USB connects *readonly
+SD Card Internal - Working perfectly, can't mount though
+Sound
+Video - resolution fixed
+
+CM Working APPS
+*Apollo - Plays back recording from recorder (*no other format yet)
+*Camera - Launches and flash works in dark area
+File Manager
+Gallery
+Screenshot
+Sound Recorder
+Voice Dialer
