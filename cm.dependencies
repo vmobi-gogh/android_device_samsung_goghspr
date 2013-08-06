@@ -9,11 +9,11 @@
   },
   {
     "repository": "android_device_samsung_gogh-common",
-    "target_path": "device/samsung/d2-common"
+    "target_path": "device/samsung/gogh-common"
   },
   {
     "repository": "android_kernel_samsung_goghspr",
-    "target_path": "kernel/samsung/d2"
+    "target_path": "kernel/samsung/goghspr"
   }
 ]
 
