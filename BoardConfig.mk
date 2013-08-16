@@ -31,4 +31,4 @@ TARGET_OTA_ASSERT_DEVICE := goghspr,goghvmu,Axiom,Victory,SPH-L300
 
 # Kernel
 TARGET_KERNEL_CONFIG    := cyanogen_goghspr_defconfig
-TARGET_KERNEL_SOURCE    := kernel/samsung/goghspr
+TARGET_KERNEL_SOURCE    := kernel/samsung/gogh
