@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=goghspr
+export DEVICE=apexqtmo
 export VENDOR=samsung
-./../gogh-common/extract-files.sh $@
+./../d2-common/extract-files.sh $@
