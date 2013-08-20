@@ -1,8 +1,14 @@
-# system.prop for SGH-T699
+# system.prop for SGH-L300
 #
-rild.libargs=-d /dev/smd0
-telephony.lteOnGsmDevice=1
-ro.telephony.default_network=9 
 
-ro.sf.lcd_density=240
-ro.qualcomm.bt.hci_transport=smd
+# cannot take spaces
+rild.libargs=-d /dev/smd0
+
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+ro.telephony.default_network=8
+telephony.lteOnCdmaDevice=1
+telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false

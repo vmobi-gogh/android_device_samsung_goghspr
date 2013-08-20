@@ -21,25 +21,25 @@
 #
 
 # inherit from the proprietary version
--include vendor/samsung/apexqtmo/BoardConfigVendor.mk
+-include vendor/samsung/goghspr/BoardConfigVendor.mk
 # inherit from common d2
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := apexqtmo
-TARGET_BOARD_INFO_FILE ?= device/samsung/apexqtmo/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := goghspr
+TARGET_BOARD_INFO_FILE ?= device/samsung/goghspr/board-info.txt
 
 # Insert contents of file near end of updater-script
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./build/tools/releasetools/ota_from_target_files -e ./device/samsung/apexqtmo/installer_extra
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./build/tools/releasetools/ota_from_target_files -e ./device/samsung/goghspr/installer_extra
 
 # Kernel
-TARGET_KERNEL_CONFIG        := cyanogen_apexq_defconfig
+TARGET_KERNEL_CONFIG        := cyanogen_goghspr_defconfig
 TARGET_KERNEL_VARIANT_CONFIG :=
 BOARD_MKBOOTIMG_ARGS        := --ramdisk_offset 0x01500000
 TARGET_KERNEL_SOURCE        := kernel/samsung/d2
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/apexqtmo/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/goghspr/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF :=
 BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY :=
 BOARD_HAVE_BLUETOOTH_BCM :=
@@ -62,11 +62,6 @@ WIFI_DRIVER_MODULE_AP_ARG   :=
 WIFI_DRIVER_FW_PATH_STA     :=
 WIFI_DRIVER_FW_PATH_AP      :=
 WIFI_DRIVER_FW_PATH_P2P     :=
-
-#Audio
-BOARD_HAVE_AUDIENCE_A2220 :=
-BOARD_USES_SEPERATED_VOICE_SPEAKER := true
-BOARD_USES_FLUENCE_INCALL := false
 
 #camera hax
 TARGET_PROVIDES_CAMERA_HAL := true

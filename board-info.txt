@@ -1,2 +1,2 @@
-require version-bootloader=T699UVBMC5
+require version-bootloader=L300VPBMC1
 
