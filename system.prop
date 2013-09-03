@@ -21,3 +21,30 @@ DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
 dalvik.vm.dexopt-data-only=1
+
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+#
+# system property for Bluetooth Handsfree Profile version
+#
+ro.bluetooth.hfp.ver=1.6
+#
+#system prop for Bluetooth hci transport
+ro.qualcomm.bt.hci_transport=smd
+#
+# system prop for requesting Master role in incoming Bluetooth connection.
+#
+ro.bluetooth.request.master=true
+#
+# system prop for Bluetooth Auto connect for remote initated connections
+#
+ro.bluetooth.remote.autoconnect=true
+# system property for Bluetooth discoverability time out in seconds
+# 0: Always discoverable
+#debug.bt.discoverable_time=0
+
+#system prop for switching gps driver to qmi
+persist.gps.qmienabled=true
