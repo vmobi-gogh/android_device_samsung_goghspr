@@ -1,2 +1,1 @@
-require version-bootloader=L300VPBMC1
-
+require version-bootloader=L300VPALJ9|L300VPALH1|L300VPAMG5

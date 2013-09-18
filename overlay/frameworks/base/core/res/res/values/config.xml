@@ -21,10 +21,14 @@
      for different hardware and product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
-    <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">false</bool>
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
+
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 
     <!-- We dont have different firmware for wifi modes, prevent reloading it -->
     <bool name="config_wifiApFirmwareReload">false</bool>
+
 
 </resources>

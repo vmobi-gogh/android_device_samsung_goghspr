@@ -24,7 +24,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
 ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
-ifneq ($(filter goghspr goghvmu Axiom Victory SPH-L300, $(TARGET_DEVICE)),)
+ifneq ($(filter goghspr goghvmu,$(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
 endif
